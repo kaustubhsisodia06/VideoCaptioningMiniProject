@@ -1,3 +1,19 @@
+Introduction
+This repository contains my implementation of a video captioning system. This system takes as input a video and generates a caption describing the event in the video.
+
+I took inspiration from Sequence to Sequence -- Video to Text, a video captioning work proposed by researchers at the University of Texas, Austin.
+
+Requirements
+For running my code and reproducing the results, the following packages need to be installed first. I have used Python 2.7 for the whole of this project.
+
+Packages:
+
+TensorFlow
+Caffe
+NumPy
+cv2
+imageio
+scikit-image
 # VideoCaptioningMiniProject
 Understanding visual media, i.e. images and videos, has been a cornerstone topic
 in computer vision research for a long time. Recently, a new task within the
